@@ -11,4 +11,3 @@ class CreateItems < ActiveRecord::Migration
     add_index :items, :serial, unique: true
   end
 end
-ß

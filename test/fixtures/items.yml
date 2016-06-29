@@ -1,11 +1,11 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
-one:
+i_one:
   size: 1
-  description: MyText
-  serial: MyString
+  description: Item1
+  serial: 123
 
-two:
-  size: 1
-  description: MyText
-  serial: MyString
+i_two:
+  size: 2
+  description: Item2
+  serial: 1234

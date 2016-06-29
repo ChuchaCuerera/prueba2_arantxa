@@ -1,9 +1,14 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
-one:
-  worker_id: 
+o_one:
+  worker_id: w_one
   item_id: 
 
-two:
-  worker_id: 
+o_two:
+  worker_id: w_two
+  item_id: 
+
+
+o_three:
+  worker_id: w_one
   item_id: 

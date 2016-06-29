@@ -19,10 +19,12 @@ ActiveRecord::Schema.define(version: 20160629004041) do
   create_table "items", force: :cascade do |t|
     t.integer  "size"
     t.text     "description"
-    t.string   "serial"
+    t.string   "serial",      null: false
     t.datetime "created_at",  null: false
     t.datetime "updated_at",  null: false
   end
+
+  add_index "items", ["serial"], name: "index_items_on_serial", unique: true, using: :btree
 
   create_table "operations", force: :cascade do |t|
     t.integer  "worker_id"
